@@ -109,5 +109,5 @@ def gen_model_input_sdm(train_set, user_profile, seq_short_len, seq_prefer_len):
 
     for key in ["gender", "age", "occupation", "zip"]:
         train_model_input[key] = user_profile.loc[train_model_input['user_id']][key].values
-
+    # 模型训练输入向量， 训练label
     return train_model_input, train_label

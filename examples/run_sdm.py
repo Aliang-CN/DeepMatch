@@ -96,6 +96,7 @@ if __name__ == "__main__":
 
     print(user_embs.shape)
     print(item_embs.shape)
+    print('done')
 
     # test_true_label = {line[0]: [line[3]] for line in test_set}
     #
